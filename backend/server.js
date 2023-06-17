@@ -6,7 +6,7 @@ import Cards from './dbCards.js'
 //App Config
 const app = express()
 const port = process.env.PORT || 8001
-const uri = 'mongodb+srv://sorhan314:dating-app-mern@cluster0.7hamwds.mongodb.net/?retryWrites=true&w=majority'
+const uri = '<Mongodbconnecturi>'
 
 //Middleware
 app.use(express.json())
